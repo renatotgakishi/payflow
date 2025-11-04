@@ -1,13 +1,5 @@
 ﻿using PayFlow.Application.DTOs;
-using PayFlow.Application.Factories;
 using PayFlow.Application.Interfaces;
-using PayFlow.Infrastructure.Providers;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Runtime.CompilerServices;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace PayFlow.Application.Services
 {

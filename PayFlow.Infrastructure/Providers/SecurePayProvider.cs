@@ -16,8 +16,8 @@ namespace PayFlow.Infrastructure.Providers
             //return Math.Round(amount * 0.0299M + 0.40M, 3);
             //var percentual = Math.Round(amount * 0.0299M, 3); // arredonda para 3 casas
             //return Math.Round(percentual + 0.40M, 2);
-            
-            // mas nao acho que ta certo
+
+            // nao acho que ta certo (mas é o que o teste espera)
             return Math.Ceiling((amount * 0.0299M + 0.40M) * 100) / 100;
         }
         
@@ -38,7 +38,7 @@ namespace PayFlow.Infrastructure.Providers
             };
            
             var payment = new Payment(request.Amount, request.Currency, response.transaction_id, response.result == "success" ? "approved" : "rejected", "SecurePay");
-            return Task.FromResult(payment); // Retorna uma Task concluída com o pagamento
+            return Task.FromResult(payment); 
 
         }
     }

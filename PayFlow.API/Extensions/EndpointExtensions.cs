@@ -7,7 +7,8 @@ namespace PayFlow.API.Extensions
         public static void MapApiEndpoints(this WebApplication app)
         {
             app.MapPaymentEndpoints();
-            // Additional endpoint mappings can be added here
+
+            // pode adicionar outros endpoints aqui no futuro
         }
     }
 }
