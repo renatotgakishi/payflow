@@ -12,7 +12,7 @@ namespace PayFlow.API.Extensions
         {
             services.AddScoped<IPaymentProvider, FastPayProvider>();
             services.AddScoped<IPaymentProvider, SecurePayProvider>();
-            services.AddScoped<PaymentProviderFactory>();
+            services.AddScoped<IPaymentProviderFactory,PaymentProviderFactory>();
             services.AddScoped<IPaymentService, PaymentService>();
 
             return services;

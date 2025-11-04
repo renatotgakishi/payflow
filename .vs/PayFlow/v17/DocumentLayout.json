@@ -3,20 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\renat\\source\\repos\\PayFlow\\PayFlow\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6781155A-86AB-4542-8086-26F19A610FED}|PayFlow.API\\PayFlow.API.csproj|c:\\users\\renat\\source\\repos\\payflow\\payflow\\payflow.api\\endpoints\\paymentendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6781155A-86AB-4542-8086-26F19A610FED}|PayFlow.API\\PayFlow.API.csproj|solutionrelative:payflow.api\\endpoints\\paymentendpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6781155A-86AB-4542-8086-26F19A610FED}|PayFlow.API\\PayFlow.API.csproj|c:\\users\\renat\\source\\repos\\payflow\\payflow\\payflow.api\\extensions\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6781155A-86AB-4542-8086-26F19A610FED}|PayFlow.API\\PayFlow.API.csproj|solutionrelative:payflow.api\\extensions\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{07225501-F3E5-4C40-B16E-F5011CD3EADE}|PayFlow.Infrastructure\\PayFlow.Infrastructure.csproj|c:\\users\\renat\\source\\repos\\payflow\\payflow\\payflow.infrastructure\\providers\\fastpayprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{07225501-F3E5-4C40-B16E-F5011CD3EADE}|PayFlow.Infrastructure\\PayFlow.Infrastructure.csproj|solutionrelative:payflow.infrastructure\\providers\\fastpayprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{07225501-F3E5-4C40-B16E-F5011CD3EADE}|PayFlow.Infrastructure\\PayFlow.Infrastructure.csproj|c:\\users\\renat\\source\\repos\\payflow\\payflow\\payflow.infrastructure\\providers\\securepayprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{07225501-F3E5-4C40-B16E-F5011CD3EADE}|PayFlow.Infrastructure\\PayFlow.Infrastructure.csproj|solutionrelative:payflow.infrastructure\\providers\\securepayprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9A0FA102-9DC2-4564-BA93-C6F46AECE657}|PayFlow.Application\\PayFlow.Application.csproj|c:\\users\\renat\\source\\repos\\payflow\\payflow\\payflow.application\\services\\paymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9A0FA102-9DC2-4564-BA93-C6F46AECE657}|PayFlow.Application\\PayFlow.Application.csproj|solutionrelative:payflow.application\\services\\paymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6925FE2F-1F7A-4A8F-8903-60A75763B6FC}|PayFlow.Tests\\PayFlow.Tests.csproj|c:\\users\\renat\\source\\repos\\payflow\\payflow\\payflow.tests\\paymentservicetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6925FE2F-1F7A-4A8F-8903-60A75763B6FC}|PayFlow.Tests\\PayFlow.Tests.csproj|solutionrelative:payflow.tests\\paymentservicetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,53 +23,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "PaymentEndpoints.cs",
-              "DocumentMoniker": "C:\\Users\\renat\\source\\repos\\PayFlow\\PayFlow\\PayFlow.API\\Endpoints\\PaymentEndpoints.cs",
-              "RelativeDocumentMoniker": "PayFlow.API\\Endpoints\\PaymentEndpoints.cs",
-              "ToolTip": "C:\\Users\\renat\\source\\repos\\PayFlow\\PayFlow\\PayFlow.API\\Endpoints\\PaymentEndpoints.cs",
-              "RelativeToolTip": "PayFlow.API\\Endpoints\\PaymentEndpoints.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAmAAAAAAAAAA==",
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\renat\\source\\repos\\PayFlow\\PayFlow\\PayFlow.API\\Extensions\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "PayFlow.API\\Extensions\\DependencyInjection.cs",
+              "ToolTip": "C:\\Users\\renat\\source\\repos\\PayFlow\\PayFlow\\PayFlow.API\\Extensions\\DependencyInjection.cs",
+              "RelativeToolTip": "PayFlow.API\\Extensions\\DependencyInjection.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAiwAgAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-04T03:24:52.422Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "PaymentService.cs",
-              "DocumentMoniker": "C:\\Users\\renat\\source\\repos\\PayFlow\\PayFlow\\PayFlow.Application\\Services\\PaymentService.cs",
-              "RelativeDocumentMoniker": "PayFlow.Application\\Services\\PaymentService.cs",
-              "ToolTip": "C:\\Users\\renat\\source\\repos\\PayFlow\\PayFlow\\PayFlow.Application\\Services\\PaymentService.cs",
-              "RelativeToolTip": "PayFlow.Application\\Services\\PaymentService.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABsAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-04T03:12:31.518Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "SecurePayProvider.cs",
-              "DocumentMoniker": "C:\\Users\\renat\\source\\repos\\PayFlow\\PayFlow\\PayFlow.Infrastructure\\Providers\\SecurePayProvider.cs",
-              "RelativeDocumentMoniker": "PayFlow.Infrastructure\\Providers\\SecurePayProvider.cs",
-              "ToolTip": "C:\\Users\\renat\\source\\repos\\PayFlow\\PayFlow\\PayFlow.Infrastructure\\Providers\\SecurePayProvider.cs",
-              "RelativeToolTip": "PayFlow.Infrastructure\\Providers\\SecurePayProvider.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAswBQAAABIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-04T03:11:11.966Z",
+              "WhenOpened": "2025-11-04T12:24:39.67Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "FastPayProvider.cs",
-              "DocumentMoniker": "C:\\Users\\renat\\source\\repos\\PayFlow\\PayFlow\\PayFlow.Infrastructure\\Providers\\FastPayProvider.cs",
-              "RelativeDocumentMoniker": "PayFlow.Infrastructure\\Providers\\FastPayProvider.cs",
-              "ToolTip": "C:\\Users\\renat\\source\\repos\\PayFlow\\PayFlow\\PayFlow.Infrastructure\\Providers\\FastPayProvider.cs",
-              "RelativeToolTip": "PayFlow.Infrastructure\\Providers\\FastPayProvider.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Title": "PaymentServiceTest.cs",
+              "DocumentMoniker": "C:\\Users\\renat\\source\\repos\\PayFlow\\PayFlow\\PayFlow.Tests\\PaymentServiceTest.cs",
+              "RelativeDocumentMoniker": "PayFlow.Tests\\PaymentServiceTest.cs",
+              "ToolTip": "C:\\Users\\renat\\source\\repos\\PayFlow\\PayFlow\\PayFlow.Tests\\PaymentServiceTest.cs",
+              "RelativeToolTip": "PayFlow.Tests\\PaymentServiceTest.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAApwA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-04T03:11:06.551Z",
+              "WhenOpened": "2025-11-04T11:42:00.004Z",
               "EditorCaption": ""
             }
           ]

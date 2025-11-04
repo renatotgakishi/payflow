@@ -1,21 +1,25 @@
 
-PayFlow API
+- PayFlow API
 
 PayFlow é uma API de processamento de pagamentos que seleciona automaticamente o provedor mais adequado com base no valor bruto da transação. O projeto foi desenvolvido em .NET 9 e segue os princípios da arquitetura limpa, com suporte à execução via Docker Compose.
 
-Arquitetura Adotada
+- Arquitetura Adotada
 
 O projeto está estruturado em camadas, seguindo os princípios da Clean Architecture:
 
-API: camada responsável pela exposição dos endpoints HTTP e configuração do ambiente.
+API: API Minimal enxuta, moderna e extensilve, camada responsável pela exposição dos endpoints HTTP e configuração do ambiente.
 
-Application: camada que contém as regras de negócio e orquestração entre serviços e provedores.
+Application: desacoplada e testavel, camada que contém as regras de negócio e orquestração entre serviços e provedores.
 
 Domain: define os contratos e entidades que representam o modelo de negócio.
 
 Infrastructure: implementações concretas dos provedores de pagamento e da fábrica de seleção.
 
-Design Patterns utilizados
+Swagger configurado para documentacao e teste
+
+Test - Teste unitario 
+
+- Design Patterns utilizados
 
 Factory Method: utilizado na PaymentProviderFactory para selecionar dinamicamente o provedor.
 
@@ -25,7 +29,11 @@ Dependency Injection: todas as dependências são injetadas via configuração n
 
 DTOs: utilizados para transportar dados entre camadas, como PaymentRequest e PaymentResponse.
 
-Como executar com Docker Compose
+Integracao Continua com Github Actions
+
+Este pipeline de integração contínua (CI) é responsável por compilar a solução PayFlow e executar os testes automatizados sempre que há alterações na branch . Ele garante que o código esteja funcional e testado antes de qualquer etapa de publicação ou deploy.
+
+- Como executar com Docker Compose
 
 Pré-requisitos:
 

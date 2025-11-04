@@ -13,11 +13,13 @@ namespace PayFlow.Application.Services
 {
     public class PaymentService : IPaymentService
     {
-        private readonly PaymentProviderFactory _paymentProviderFactory;
-        public PaymentService(PaymentProviderFactory paymentProviderFactory)
+        private readonly IPaymentProviderFactory _paymentProviderFactory;
+
+        public PaymentService(IPaymentProviderFactory paymentProviderFactory)
         {
             _paymentProviderFactory = paymentProviderFactory;
         }
+
         public async Task<PaymentResponse> HandlerPaymentAsync(PaymentRequest request)
         {
             var domainRequest = request.ToDomain();
