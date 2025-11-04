@@ -1,0 +1,58 @@
+# Build results
+bin/
+obj/
+out/
+publish/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio Code
+.vscode/
+
+# Rider
+.idea/
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Docker artifacts
+*.pid
+*.tar
+*.gz
+
+# ASP.NET secrets
+secrets.json
+
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# NuGet packages
+*.nupkg
+.nuget/
+
+# Environment files
+.env
+
+# Docker Compose override
+docker-compose.override.yml
+
+# Test results
+TestResults/
+*.coverage
+*.coveragexml
+
+# Others
+*.swp
+*.bak
+*.tmp
+*.orig
